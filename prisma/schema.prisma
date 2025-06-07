@@ -1,0 +1,19 @@
+datasource db {
+    provider = "mysql"
+    url = env("DATABASE_URL")
+    shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+generator client {
+    provider = "prisma-client-ts"
+    output = "./generated"
+}
+
+model Evento {
+    id Int @id @default(autoincrement())
+    titulo String
+    descricao String
+    data DateTime
+    criadoEm DateTime @default(now())
+    processado Boolean @default(false)
+}

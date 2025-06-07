@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^22.15.30",
+    "prisma": "^6.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}

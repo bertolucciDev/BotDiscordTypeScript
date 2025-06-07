@@ -1,0 +1,23 @@
+# Ignorar pastas comuns
+node_modules/
+dist/
+build/
+out/
+.env
+.env.local
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar IDEs e editores
+.vscode/
+.idea/
+*.iml
+
+# Ignorar arquivos de sistema
+*.bak
+*.class
